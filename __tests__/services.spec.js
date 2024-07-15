@@ -1330,7 +1330,7 @@ describe('services', () => {
     await expect(buildTianApi('tianqi')).resolves.toEqual([])
     config.TIAN_API.weather = 3
     await expect(buildTianApi('tianqi')).resolves.toEqual([])
-    config.TIAN_API.key = 'secret'
+    config.TIAN_API.key = '183e6d42593c3176f04e60bd141ecb06'
     axios.get = async () => ({
     })
     await expect(buildTianApi('tianqi')).resolves.toEqual([])
