@@ -9,10 +9,10 @@ const USER_CONFIG = {
   USE_PASSAGE: 'push-deer',
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wxc108d273b6ced2db',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '8f6746035814ffe09b0e1cfae6d5eb28',
+  APP_SECRET: '',
 
   PROVINCE: '浙江',
   CITY: '杭州',
@@ -52,7 +52,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'LnG8019WgAP4Yg6B0c29jTcvUJS19daPQBIUfRKuZ5Y',
+  CALLBACK_TEMPLATE_ID: '0002',
 
   CALLBACK_USERS: [
     {
